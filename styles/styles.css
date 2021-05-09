@@ -1,0 +1,60 @@
+body {
+    font-family:  'Roboto';
+    background: #314755;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height:  650px;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+ #title {
+     text-align: center;
+     font-weight: 700;
+     font-size:  30px;
+     color: rgb(45, 43, 105);
+ }
+ 
+ #survey-form {
+     background-color: white;
+     padding: 40px 0 ;   
+     box-shadow: 0 0 6px 0 rgba(255, 255, 255, alpha);
+     border-radius: 80px;
+ }
+ #description {
+     width:  100px;
+     margin: auto;
+    
+ }
+
+ .grupo {
+     position: relative;
+     margin:  10px;
+text-align: center;
+
+ }
+ input {
+    background: none;
+    color: black;
+    padding: 10px 10px 10px 5px;
+    
+ }
+ 
+ .parrafo {
+     font-size: 20px;
+     color: rgb(31, 29, 68);
+ }
+ 
+ #submit {
+    
+    background: #314755;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+,
+   
+ 
+ }

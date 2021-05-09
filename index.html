@@ -6,83 +6,83 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/styles.css">
-  <title>Document</title>
+  <title>Formulario</title>
 </head>
 
 <body>
-  <main>
-    <div>
-      <form action="" id="survey-form">
-        <div>
-          <p>¿Cuál es su nombre?</p>
-          <label for="Nombre">
-            <input type="text" id="name-label" name="Nombre" placeholder="Ingrese su nombre" required
-              pattern="[A-Z]{5,40}">
-          </label>
-        </div>
-        <div>
-          <p>¿Cuál es su correo electrónico?</p>
-          <label for="">
-            <input type=" email" id="email-label" name="email" placeholder="Ingrese correo electrónico" required>
-          </label>
-        </div>
-        <div>
-          <p>¿Cuál es su edad?</p>
-          <label for="edad">
-            <input type="number" id="number-label" placeholder="Ingrese su edad" minlength="1" maxlength="2" min="10"
-              max="99">
-          </label>
-        </div>
-        <div>
-          <p>Ocupación:</p>
-          <label for="ocupacion"></label>
-          <select name="ocupacion" id="dropdown" required>
-            <option value="seleccione">Seleccione ocupación</option>
-            <option value="estudiante">Estudiante</option>
-            <option value="empleado">Empleado</option>
-            <option value="desempleado">Desempleado</option>
-            <option value="independiente">Trabajador Independiente</option>
-            <option value="otro">Otro</option>
-          </select>
-          </label>
-        </div>
-        <div>
-          <p>¿Recomendarías esta página?</p>
-          <label for="radio">
-            <input type="radio" name="radio" id="radio" value="Definitivamente">
-            Definitivamente
-            <input type="radio" name="radio" id="radio" value="Quizás">
-            Quizás
-            <input type="radio" name="radio" id="radio" value="Nunca">
-            Nunca
-          </label>
-        </div>
-        <div>
-          <p>¿Qué cursos quieren que se añadan al plan de estudio?</p>
-          <label for="casilla">
-            <input type="checkbox" name="casilla" id="casilla" value="Ciencia de datos">
-            Ciencia de datos
-            <input type="checkbox" name="casilla" id="casilla" value="Marketing digital">
-            Marketing digital
-            <input type="checkbox" name="casilla" id="casilla" value="Redes y seguridad">
-            Redes y seguridad
-            <input type="checkbox" name="casilla" id="casilla" value="Desarrollo web">
-            Desarrollo web
-          </label>
 
-        </div>
-        <div>
-          <p>¿Desea dejar alguna sugerencia?</p>
-          <label for="">
-            <textarea name="comentario" id="comentario" cols="40" rows="10">Aquí puede dejar su sugerencia...</textarea>
-          </label>
-        </div>
-        <div>
-          <input id="submit" type="submit" value="Enviar formulario">
-        </div>
-      </form>
+  <form action="" id="survey-form">
+    <div id="descrption">
+      <h1 id="title">Formulario de Academia Geek</h1>
+      <div class="grupo">
+        <p class="parrafo"><strong>¿Cuál es su nombre?</strong></p>
+        <label for="Nombre">
+          <input type="text" id="name-label" name="Nombre" placeholder="Ingrese su nombre" required
+            pattern="[A-Z] ">
+        </label>
+      </div>
+      <div class="grupo">
+        <p class="parrafo"><strong>¿Cuál es su correo electrónico?</strong></p>
+        <label for="">
+          <input type=" email" id="email-label" name="email" placeholder="Ingrese correo electrónico" required>
+        </label>
+      </div>
+      <div class="grupo">
+        <p class="parrafo"><strong>¿Cuál es su edad?</strong></p>
+        <label for="edad">
+          <input type="number" id="number-label" minlength="1" maxlength="2" min="10" max="99">
+        </label>
+      </div>
+      <div class="grupo">
+        <p class="parrafo"><strong>Ocupación:</strong></p>
+        <label for="ocupacion"></label>
+        <select name="ocupacion" id="dropdown" required>
+          <option value="seleccione">Seleccione ocupación</option>
+          <option value="estudiante">Estudiante</option>
+          <option value="empleado">Empleado</option>
+          <option value="desempleado">Desempleado</option>
+          <option value="independiente">Trabajador Independiente</option>
+          <option value="otro">Otro</option>
+        </select>
+        </label>
+      </div>
+      <div class="grupo">
+        <p class="parrafo"><strong>¿Recomendarías esta página?</strong></p>
+        <label for="radio"  >
+          <input  type="radio" name="radio" id="radio" value="Definitivamente">
+          Definitivamente
+          <input type="radio" name="radio" id="radio" value="Quizás" >
+          Quizás
+          <input type="radio" name="radio" id="radio" value="Nunca">
+          Nunca
+        </label>
+      </div>
+      <div class="grupo">
+        <p class="parrafo"><strong>¿Qué cursos quieren que se añadan al plan de estudio?</strong></p>
+        <label for="casilla">
+          <input type="checkbox" name="casilla" id="casilla" value="Ciencia de datos">
+          Ciencia de datos
+          <input type="checkbox" name="casilla" id="casilla" value="Marketing digital">
+          Marketing digital
+          <input type="checkbox" name="casilla" id="casilla" value="Redes y seguridad">
+          Redes y seguridad
+          <input type="checkbox" name="casilla" id="casilla" value="Desarrollo web">
+          Desarrollo web
+        </label>
+
+      </div>
+      <div class="grupo">
+        <p class="parrafo"><strong>¿Desea dejar alguna sugerencia?</strong></p>
+        <label for="">
+          <textarea name="comentario" id="comentario" cols="40" rows="10">Aquí puede dejar su sugerencia...</textarea>
+        </label>
+      </div>
+      <div class="grupo">
+        <input id="submit" type="submit" value="Enviar formulario">
+      </div>
+
     </div>
-  </main>
+  </form>
 </body>
 
 </html>
